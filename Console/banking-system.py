@@ -155,7 +155,7 @@ def create_acc():
 
 
 
-# run the program
+# execute main function
 if __name__ == '__main__':
     main()
 
