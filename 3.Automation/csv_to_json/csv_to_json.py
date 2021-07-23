@@ -3,6 +3,7 @@
 - This script is to convert csv format into json format, which is used in API.
 - It also supports Myanmar font(Unicode) in CSV file.
 - In this script, mmCOVID-Services.csv(from) is used as sample.
+- link: https://docs.google.com/spreadsheets/d/1JdAUJlnMznWOQzJYuXB_c67BXjb0X_muxr5tZ0elrcQ/edit?fbclid=IwAR2fNeN4STqVST8OUrP7iXC7hDWoYohfYifUItFJIH_MxB1IZ7qZ9Vts340#gid=2126355490
 - You can use another CSV file.
   
 '''
