@@ -10,6 +10,8 @@ Hangman Game
 '''
 
 import random
+import string
+
 
 def main():
     # choose random secret word
@@ -29,12 +31,23 @@ def main():
     misssed_word = set()
 
     while error < 6:
+        
+
         print(guess_word)
 
         # display hangman state
         hangman_state(error)
 
         guess_letter = input("Guess: ")
+        if len(guess_letter) != 1:
+            print('You should input a single letter\n')
+            continue
+                
+        elif guess_letter not in string.ascii_lowercase:
+            print('Please enter a lowercase English letter\n')
+            continue
+        
+
         if guess_letter not in secret_word:
             error += 1
             misssed_word.add(guess_letter)
